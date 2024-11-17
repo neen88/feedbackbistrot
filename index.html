@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Évaluez notre service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="rating-system">
+        <img src="logo-richelieu.png" alt="Logo du Bistrot Richelieu" id="restaurant-logo">
+        <h2>Évaluez notre service</h2>
+        <div class="stars">
+            <span data-value="1">&#9733;</span>
+            <span data-value="2">&#9733;</span>
+            <span data-value="3">&#9733;</span>
+            <span data-value="4">&#9733;</span>
+            <span data-value="5">&#9733;</span>
+        </div>
+        <div id="feedback-section" style="display: none;">
+            <p class="feedback-prompt">Nous sommes désolés d'apprendre cela. Pouvez-vous nous dire ce qui s'est passé ?</p>
+            <textarea id="feedback-text" placeholder="Dites-nous ce qui s'est passé..."></textarea>
+            <button id="submit-feedback">Envoyer votre avis</button>
+        </div>
+        <div id="thank-you-message" style="display: none;">
+            <div class="thank-you-content">
+                <h3>Merci infiniment !</h3>
+                <p>Votre retour est précieux et nous aide à offrir la meilleure expérience possible.</p>
+                <button id="close-message">Fermer</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
